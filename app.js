@@ -6,8 +6,7 @@ let nodeData = [];
 // Initialize the map
 function initMap() {
     map = new google.maps.Map(document.getElementById("map"), {
-        //center: { lat: -12.0464, lng: -77.0428 },  // Coordinates to center the map (Lima, Peru as example)
-	center: { lat: -16.4090, lng: -71.5375 },
+        center: { lat: -16.4090, lng: -71.5375 },
         zoom: 12,
     });
 
@@ -17,7 +16,8 @@ function initMap() {
         .then(data => {
             nodeData = data;
             placeMarkers(data);
-		console.log(data);
+            console.log(data);
+            drawConnections(); // Call to draw existing connections
         })
         .catch(error => console.error('Error fetching nodes:', error));
 }
@@ -39,6 +39,39 @@ function placeMarkers(nodes) {
 
         markers.push(marker);
     });
+}
+
+// Fetch and draw connections
+function drawConnections() {
+    fetch('http://129.159.59.70:8000/conexion/conexion/')  // Replace with your actual API endpoint for connections
+        .then(response => response.json())
+        .then(connections => {
+            connections.forEach(connection => {
+                const node1 = nodeData.find(node => node.id_nodo === connection.id_nodo_origen);
+                const node2 = nodeData.find(node => node.id_nodo === connection.id_nodo_destino);
+
+                if (node1 && node2) {
+                    drawConnection(node1, node2);
+                }
+            });
+        })
+        .catch(error => console.error('Error fetching connections:', error));
+}
+
+// Draw a connection between two nodes
+function drawConnection(node1, node2) {
+    const start = new google.maps.LatLng(parseFloat(node1.latitud_qr1), parseFloat(node1.longitud_qr1));
+    const end = new google.maps.LatLng(parseFloat(node2.latitud_qr1), parseFloat(node2.longitud_qr1));
+
+    const routePath = new google.maps.Polyline({
+        path: [start, end],
+        geodesic: true,
+        strokeColor: '#FF0000',
+        strokeOpacity: 1.0,
+        strokeWeight: 2,
+    });
+
+    routePath.setMap(map);
 }
 
 // Handle node selection
@@ -73,7 +106,6 @@ function getCookie(name) {
 const csrftoken = getCookie('csrftoken');
 
 // Draw route between two selected nodes
-
 function drawRoute(node1, node2) {
     const start = new google.maps.LatLng(parseFloat(node1.latitud_qr1), parseFloat(node1.longitud_qr1));
     const end = new google.maps.LatLng(parseFloat(node2.latitud_qr1), parseFloat(node2.longitud_qr1));
@@ -150,4 +182,3 @@ function resetSelection() {
 
 // Load the map
 window.onload = initMap;
-
