@@ -1,25 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Maps Node Selection</title>
+    <meta name="description" content="Aplicación de Google Maps que permite seleccionar nodos para trazar rutas.">
+    <meta name="keywords" content="Google Maps, rutas, nodos, mapa interactivo">
+    <meta name="author" content="Tu Nombre">
+    <title>Ruta entre Nodos - Google Maps</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-top: 20px;
+        }
+
         #map {
             height: 500px;
-            width: 100%;
+            width: 90%;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            #map {
+                width: 95%;
+                height: 400px;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
         }
     </style>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAL9Q7uvhEzAozEmc2J5QICOg72f0Sz5QM"> </script>
+    <!-- Cargar el script de Google Maps con defer para mejorar el rendimiento -->
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAL9Q7uvhEzAozEmc2J5QICOg72f0Sz5QM">
+    </script>
 </head>
-<body>
 
+<body>
     <h2>Selecciona 2 nodos para trazar una ruta</h2>
 
-    <!-- Map container -->
-    <div id="map"></div>
+    <!-- Contenedor del mapa -->
+    <div id="map" aria-label="Mapa interactivo de Google"></div>
 
-    <script src="app.js"></script>
+    <!-- JavaScript -->
+    <script src="app.js" defer></script>
 </body>
-</html>
 
+</html>
