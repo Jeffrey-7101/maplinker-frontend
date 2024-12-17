@@ -1,0 +1,128 @@
+[
+    {
+        "codigo": "ING036",
+        "latitud_qr1": -16.404546,
+        "longitud_qr1": -71.525316,
+        "latitud_qr2": -16.404536,
+        "longitud_qr2": -71.525306,
+        "altitud": 0.0,
+        "decripcion": "referencia"
+    },
+    {
+        "codigo": "ING037",
+        "latitud_qr1": -16.404695,
+        "longitud_qr1": -71.525195,
+        "latitud_qr2": -16.404685,
+        "longitud_qr2": -71.525185,
+        "altitud": 0.0,
+        "decripcion": "referencia"
+    },
+    {
+        "codigo": "ING038",
+        "latitud_qr1": -16.404601,
+        "longitud_qr1": -71.525071,
+        "latitud_qr2": -16.404591,
+        "longitud_qr2": -71.525061,
+        "altitud": 0.0,
+        "decripcion": "Laboratorio Mecanica de Suelos"
+    },
+    {
+        "codigo": "ING039",
+        "latitud_qr1": -16.404473,
+        "longitud_qr1": -71.525214,
+        "latitud_qr2": -16.404463,
+        "longitud_qr2": -71.525204,
+        "altitud": 0.0,
+        "decripcion": "Laboratorio de pavimento"
+    },
+    {
+        "codigo": "ING040",
+        "latitud_qr1": -16.405113,
+        "longitud_qr1": -71.524843,
+        "latitud_qr2": -16.405103,
+        "longitud_qr2": -71.524833,
+        "altitud": 0.0,
+        "decripcion": "referencia"
+    },
+    {
+        "codigo": "ING041",
+        "latitud_qr1": -16.404856,
+        "longitud_qr1": -71.524522,
+        "latitud_qr2": -16.404846,
+        "longitud_qr2": -71.524512,
+        "altitud": 0.0,
+        "decripcion": "referencia"
+    },
+    {
+        "codigo": "ING042",
+        "latitud_qr1": -16.404712,
+        "longitud_qr1": -71.524644,
+        "latitud_qr2": -16.404702,
+        "longitud_qr2": -71.524634,
+        "altitud": 0.0,
+        "decripcion": "referencia"
+    },
+    {
+        "codigo": "ING043",
+        "latitud_qr1": -16.404586,
+        "longitud_qr1": -71.524624,
+        "latitud_qr2": -16.404576,
+        "longitud_qr2": -71.524614,
+        "altitud": 0.0,
+        "decripcion": "Ingenieria Civil"
+    },
+    {
+        "codigo": "ING044",
+        "latitud_qr1": -16.404447,
+        "longitud_qr1": -71.524863,
+        "latitud_qr2": -16.404437,
+        "longitud_qr2": -71.524853,
+        "altitud": 0.0,
+        "decripcion": "referencia"
+    },
+    {
+        "codigo": "ING045",
+        "latitud_qr1": -16.404097,
+        "longitud_qr1": -71.524488,
+        "latitud_qr2": -16.404087,
+        "longitud_qr2": -71.524478,
+        "altitud": 0.0,
+        "decripcion": "Kioscos Quimica"
+    },
+    {
+        "codigo": "ING046",
+        "latitud_qr1": -16.403862,
+        "longitud_qr1": -71.525405,
+        "latitud_qr2": -16.403852,
+        "longitud_qr2": -71.525395,
+        "altitud": 0.0,
+        "decripcion": "referencia"
+    },
+    {
+        "codigo": "ING047",
+        "latitud_qr1": -16.40379,
+        "longitud_qr1": -71.525241,
+        "latitud_qr2": -16.40378,
+        "longitud_qr2": -71.525231,
+        "altitud": 0.0,
+        "decripcion": "Escuela de Quimica"
+    },
+    {
+        "codigo": "ING048",
+        "latitud_qr1": -16.403721,
+        "longitud_qr1": -71.525388,
+        "latitud_qr2": -16.403711,
+        "longitud_qr2": -71.525378,
+        "altitud": 0.0,
+        "decripcion": "referencia"
+    },
+    {
+        "codigo": "ING049",
+        "latitud_qr1": -16.403575,
+        "longitud_qr1": -71.525232,
+        "latitud_qr2": -16.403565,
+        "longitud_qr2": -71.525222,
+        "altitud": 0.0,
+        "decripcion": "Kioscos Industrial"
+    }
+]

@@ -1,0 +1,227 @@
+[
+    {
+        "codigo": "ING057",
+        "latitud_qr1": -16.402416,
+        "longitud_qr1": -71.524581,
+        "latitud_qr2": -16.402406,
+        "longitud_qr2": -71.524571,
+        "altitud": 0.0,
+        "decripcion": ""
+    },
+    {
+        "codigo": "ING058",
+        "latitud_qr1": -16.402755,
+        "longitud_qr1": -71.524639,
+        "latitud_qr2": -16.402745,
+        "longitud_qr2": -71.524629,
+        "altitud": 0.0,
+        "decripcion": ""
+    },
+    {
+        "codigo": "ING059",
+        "latitud_qr1": -16.402411,
+        "longitud_qr1": -71.524212,
+        "latitud_qr2": -16.402401,
+        "longitud_qr2": -71.524202,
+        "altitud": 0.0,
+        "decripcion": ""
+    },
+    {
+        "codigo": "ING060",
+        "latitud_qr1": -16.402701,
+        "longitud_qr1": -71.523942,
+        "latitud_qr2": -16.402691,
+        "longitud_qr2": -71.523932,
+        "altitud": 0.0,
+        "decripcion": "referencia"
+    },
+    {
+        "codigo": "ING061",
+        "latitud_qr1": -16.402959,
+        "longitud_qr1": -71.523721,
+        "latitud_qr2": -16.402949,
+        "longitud_qr2": -71.523711,
+        "altitud": 0.0,
+        "decripcion": "referencia"
+    },
+    {
+        "codigo": "ING062",
+        "latitud_qr1": -16.403319,
+        "longitud_qr1": -71.524162,
+        "latitud_qr2": -16.403309,
+        "longitud_qr2": -71.524152,
+        "altitud": 0.0,
+        "decripcion": ""
+    },
+    {
+        "codigo": "ING063",
+        "latitud_qr1": -16.403435,
+        "longitud_qr1": -71.524033,
+        "latitud_qr2": -16.403425,
+        "longitud_qr2": -71.524023,
+        "altitud": 0.0,
+        "decripcion": "INFOUNSA"
+    },
+    {
+        "codigo": "ING064",
+        "latitud_qr1": -16.403208,
+        "longitud_qr1": -71.523503,
+        "latitud_qr2": -16.403198,
+        "longitud_qr2": -71.523493,
+        "altitud": 0.0,
+        "decripcion": "referencia"
+    },
+    {
+        "codigo": "ING065",
+        "latitud_qr1": -16.403535,
+        "longitud_qr1": -71.523192,
+        "latitud_qr2": -16.403525,
+        "longitud_qr2": -71.523182,
+        "altitud": 0.0,
+        "decripcion": "Guarderia infantil"
+    },
+    {
+        "codigo": "ING066",
+        "latitud_qr1": -16.403744,
+        "longitud_qr1": -71.523851,
+        "latitud_qr2": -16.403734,
+        "longitud_qr2": -71.523841,
+        "altitud": 0.0,
+        "decripcion": "Auditorio de Matematicas"
+    },
+    {
+        "codigo": "ING067",
+        "latitud_qr1": -16.403884,
+        "longitud_qr1": -71.524008,
+        "latitud_qr2": -16.403874,
+        "longitud_qr2": -71.523998,
+        "altitud": 0.0,
+        "decripcion": "Aparcamiento Indepdencia 1"
+    },
+    {
+        "codigo": "ING068",
+        "latitud_qr1": -16.403963,
+        "longitud_qr1": -71.523931,
+        "latitud_qr2": -16.403953,
+        "longitud_qr2": -71.523921,
+        "altitud": 0.0,
+        "decripcion": "Facultad de Ingenieria de Procesos"
+    },
+    {
+        "codigo": "ING069",
+        "latitud_qr1": -16.404063,
+        "longitud_qr1": -71.524057,
+        "latitud_qr2": -16.404053,
+        "longitud_qr2": -71.524047,
+        "altitud": 0.0,
+        "decripcion": "Microscopio electronico"
+    },
+    {
+        "codigo": "ING070",
+        "latitud_qr1": -16.404326,
+        "longitud_qr1": -71.524008,
+        "latitud_qr2": -16.404316,
+        "longitud_qr2": -71.523998,
+        "altitud": 0.0,
+        "decripcion": "referencia"
+    },
+    {
+        "codigo": "ING071",
+        "latitud_qr1": -16.404233,
+        "longitud_qr1": -71.523793,
+        "latitud_qr2": -16.404223,
+        "longitud_qr2": -71.523783,
+        "altitud": 0.0,
+        "decripcion": "Estadio Ho Chi Minh"
+    },
+    {
+        "codigo": "ING072",
+        "latitud_qr1": -16.404609,
+        "longitud_qr1": -71.52373,
+        "latitud_qr2": -16.404599,
+        "longitud_qr2": -71.52372,
+        "altitud": 0.0,
+        "decripcion": "referencia"
+    },
+    {
+        "codigo": "ING073",
+        "latitud_qr1": -16.405089,
+        "longitud_qr1": -71.524308,
+        "latitud_qr2": -16.405079,
+        "longitud_qr2": -71.524298,
+        "altitud": 0.0,
+        "decripcion": "referencia"
+    },
+    {
+        "codigo": "ING074",
+        "latitud_qr1": -16.405466,
+        "longitud_qr1": -71.52396,
+        "latitud_qr2": -16.405456,
+        "longitud_qr2": -71.52395,
+        "altitud": 0.0,
+        "decripcion": "Ingenieria de Industrias Alimentarias"
+    },
+    {
+        "codigo": "ING075",
+        "latitud_qr1": -16.405506,
+        "longitud_qr1": -71.523807,
+        "latitud_qr2": -16.405496,
+        "longitud_qr2": -71.523797,
+        "altitud": 0.0,
+        "decripcion": "referencia"
+    },
+    {
+        "codigo": "ING076",
+        "latitud_qr1": -16.405581,
+        "longitud_qr1": -71.523752,
+        "latitud_qr2": -16.405571,
+        "longitud_qr2": -71.523742,
+        "altitud": 0.0,
+        "decripcion": "Ingenieria de Materiales"
+    },
+    {
+        "codigo": "ING077",
+        "latitud_qr1": -16.40594,
+        "longitud_qr1": -71.523551,
+        "latitud_qr2": -16.40593,
+        "longitud_qr2": -71.523541,
+        "altitud": 0.0,
+        "decripcion": "referencia"
+    },
+    {
+        "codigo": "ING078",
+        "latitud_qr1": -16.405496,
+        "longitud_qr1": -71.52309,
+        "latitud_qr2": -16.405486,
+        "longitud_qr2": -71.52308,
+        "altitud": 0.0,
+        "decripcion": "Ingenieria Ambiental"
+    },
+    {
+        "codigo": "ING079",
+        "latitud_qr1": -16.405312,
+        "longitud_qr1": -71.522845,
+        "latitud_qr2": -16.405302,
+        "longitud_qr2": -71.522835,
+        "altitud": 0.0,
+        "decripcion": "Escuela de Administracion"
+    },
+    {
+        "codigo": "ING080",
+        "latitud_qr1": -16.405623,
+        "longitud_qr1": -71.522467,
+        "latitud_qr2": -16.405613,
+        "longitud_qr2": -71.522457,
+        "altitud": 0.0,
+        "decripcion": "referencia"
+    },
+    {
+        "codigo": "ING081",
+        "latitud_qr1": -16.406056,
+        "longitud_qr1": -71.523281,
+        "latitud_qr2": -16.406046,
+        "longitud_qr2": -71.523271,
+        "altitud": 0.0,
+        "decripcion": "Escuela de Arte"
+    }
+]

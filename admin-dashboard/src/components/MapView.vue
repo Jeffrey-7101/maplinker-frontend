@@ -9,7 +9,7 @@
             ref="mapContainer"
             api-key="AIzaSyAL9Q7uvhEzAozEmc2J5QICOg72f0Sz5QM"
             :center="center"
-            :zoom="12"
+            :zoom="17"
             style="width: 100%; height: 500px;"
           >
             <!-- Marcadores -->
@@ -18,7 +18,7 @@
               :key="nodo.id_nodo"
               :options="{
                 position: { lat: parseFloat(nodo.latitud_qr1), lng: parseFloat(nodo.longitud_qr1) },
-                title: nodo.id_nodo,
+                title: `${nodo.codigo} (ID: ${nodo.id_nodo})`,
                 icon: getMarkerIcon(nodo),
               }"
               @click="selectNodo(nodo)"
@@ -48,7 +48,8 @@
   import { useQuasar } from 'quasar';
   
   const $q = useQuasar();
-  const center = { lat: -16.4090, lng: -71.5375 }; // Coordenadas del centro del mapa
+  const center = { lat: -16.404540, lng: -71.524124 }; // Coordenadas del centro del mapa-16.404540, -71.524124
+
   const nodos = ref([]);
   const conexiones = ref([]);
   const selectedNodes = ref([]);

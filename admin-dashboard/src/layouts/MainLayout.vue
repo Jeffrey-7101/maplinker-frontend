@@ -10,7 +10,7 @@
           aria-label="Menu" 
         />
         <q-toolbar-title class="text-weight-bold">
-          Quasar App
+          MapLinker App
         </q-toolbar-title>
       </q-toolbar>
     </q-header>

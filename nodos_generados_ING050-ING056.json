@@ -1,0 +1,65 @@
+[
+    {
+        "codigo": "ING050",
+        "latitud_qr1": -16.40342,
+        "longitud_qr1": -71.525044,
+        "latitud_qr2": -16.40341,
+        "longitud_qr2": -71.525034,
+        "altitud": 0.0,
+        "decripcion": "referencia"
+    },
+    {
+        "codigo": "ING051",
+        "latitud_qr1": -16.403325,
+        "longitud_qr1": -71.524858,
+        "latitud_qr2": -16.403315,
+        "longitud_qr2": -71.524848,
+        "altitud": 0.0,
+        "decripcion": "Pabellon Nicholson Ingenieria Industrial"
+    },
+    {
+        "codigo": "ING052",
+        "latitud_qr1": -16.402425,
+        "longitud_qr1": -71.524999,
+        "latitud_qr2": -16.402415,
+        "longitud_qr2": -71.524989,
+        "altitud": 0.0,
+        "decripcion": "Puerta Independencia"
+    },
+    {
+        "codigo": "ING053",
+        "latitud_qr1": -16.403389,
+        "longitud_qr1": -71.524781,
+        "latitud_qr2": -16.403379,
+        "longitud_qr2": -71.524771,
+        "altitud": 0.0,
+        "decripcion": "Laboratorios Ingenieria"
+    },
+    {
+        "codigo": "ING054",
+        "latitud_qr1": -16.40367,
+        "longitud_qr1": -71.524802,
+        "latitud_qr2": -16.40366,
+        "longitud_qr2": -71.524792,
+        "altitud": 0.0,
+        "decripcion": "referencia"
+    },
+    {
+        "codigo": "ING055",
+        "latitud_qr1": -16.403675,
+        "longitud_qr1": -71.524529,
+        "latitud_qr2": -16.403665,
+        "longitud_qr2": -71.524519,
+        "altitud": 0.0,
+        "decripcion": "Escuela de Fisica"
+    },
+    {
+        "codigo": "ING056",
+        "latitud_qr1": -16.403692,
+        "longitud_qr1": -71.524277,
+        "latitud_qr2": -16.403682,
+        "longitud_qr2": -71.524267,
+        "altitud": 0.0,
+        "decripcion": "Escuela de Matematica"
+    }
+]
